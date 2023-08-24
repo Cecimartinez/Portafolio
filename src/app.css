@@ -15,7 +15,8 @@
   /* ===== Colors ===== */
   --body-color: #e4e9f7;
   --sidebar-color: #fff;
-  --primary-color: #695cfe;
+  --primary-color: #e4e9f7
+  ;
   --primary-color-light: #cecece;
   --toggle-color: #ddd;
   --text-color: #707070;
@@ -45,7 +46,8 @@
   left: 0;
   margin: 0;
   padding: 0;
-  background: var(--primary-color);
+  background:#725afc
+;
   overflow: hidden;
   z-index: -1;
 }
@@ -55,7 +57,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #8D79FF;
   animation: animate 34s linear infinite;
 }
 

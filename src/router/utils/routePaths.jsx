@@ -3,5 +3,5 @@ export const ROUTE_PATHS = {
   ABOUT: "aboutme",
   PROJECTS: "projects",
   CONTACT: "contact",
-  LANGUAGES: "languages",
+  LANGUAGES: "skills",
 };

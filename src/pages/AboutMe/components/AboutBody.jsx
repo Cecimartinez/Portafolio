@@ -16,7 +16,7 @@ export const AboutBody = () => {
           <Paragrap
             type="text"
             className="text-sm leading-5 md:leading-6 text-justify"
-            content="Soy una programadora fullstack apasionada por el mundo de la tecnología y la programación. Me encanta explorar nuevas herramientas y tecnologías, buscando mejorar mi habilidad para crear soluciones innovadoras y de alta calidad. Mi experiencia en desarrollo web y en múltiples lenguajes de programación me ha permitido abordar proyectos desafiantes y encontrar soluciones creativas para cumplir con los requerimientos de los clientes."
+            content="Soy programadora fullstack apasionada por el mundo de la tecnología y la programación. Me encanta explorar nuevas herramientas y tecnologías, buscando mejorar mi habilidad para crear soluciones innovadoras y de alta calidad. Mi experiencia en desarrollo web y en múltiples lenguajes de programación me ha permitido abordar proyectos desafiantes y encontrar soluciones creativas para cumplir con los requerimientos de los clientes."
           />
         </div>
         <div className="flex justify-center">

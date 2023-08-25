@@ -1,12 +1,12 @@
 import { Button, ImageComponent, Subtitle, Title } from "../../components";
 
 export const Home = () => {
-  const pdfUrl = "https://drive.google.com/file/d/1lJbQuuP7bROnhsTdT-TtA7vULUREpFye/view";
+  const pdfUrl =
+    "https://drive.google.com/file/d/1lJbQuuP7bROnhsTdT-TtA7vULUREpFye/view";
 
   const descargarPDF = () => {
-    window.open(pdfUrl, "_blank"); 
+    window.open(pdfUrl, "_blank");
   };
-
   return (
     <div
       id="home"

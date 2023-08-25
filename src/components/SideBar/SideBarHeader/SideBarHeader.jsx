@@ -4,7 +4,7 @@ import { ImageComponent } from "../../ImageComponent/ImageComponent";
 export const SideBarHeader = ({ open, setOpen }) => {
   return (
     <header className="relative">
-      <div className="image-text m-2 flex items-center">
+      <div className="image-text my-2 flex items-center">
         <div className="image flex items-center justify-center bg-white rounded-full m-2 ">
           <Link to="/*">
             <ImageComponent

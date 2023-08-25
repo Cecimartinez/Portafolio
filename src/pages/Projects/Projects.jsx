@@ -4,20 +4,21 @@ import { Card } from "../../components/Card/Card";
 
 export const Projects = () => {
   const projectImages = {
-    Calculadora: "img/calculator.png",
+    "Calculadora": "img/calculator.png",
     "Counter-App": "img/counter.png",
     "Delicate-Macarons": "img/macarons.png",
-    DevPort: "img/aboutme-img.png",
+    "DevPort": "img/aboutme-img.png",
     "juego-cuatro-en-linea": "img/juego.png",
-    Portafolio: "img/portada-homo.png",
-    TestChallengeDev_NCR: "img/dolar.png",
+    "Portafolio": "img/portada-homo.png",
+    "TestChallengeDev_NCR": "img/dolar.png",
     "Weather-app": "img/raining.png",
   };
+
 
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
-    const token = process.env.REACT_APP_GITHUB_TOKEN;
+    const token = "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"
 
     const fetchRepos = async () => {
       try {

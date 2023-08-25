@@ -1,5 +1,10 @@
 import { ImageComponent } from "@/components";
 import { Paragrap } from "../../../components/Paragraph/Paragraph";
+import aboutme from "../../../assets/img/aboutme.png"
+import linkedin from "../../../assets/img/in.png"
+import github from "../../../assets/img/github.png"
+
+
 
 export const AboutBody = () => {
   return (
@@ -7,7 +12,7 @@ export const AboutBody = () => {
       <div className="flex flex-col">
         <div className="flex items-center justify-center">
           <ImageComponent
-            src="../img/aboutme.png"
+            src={aboutme}
             className="w-40 h-40 mx-auto md:mx-0 md:w-60 md:h-60"
             alt="AboutMeImage"
           />
@@ -26,7 +31,7 @@ export const AboutBody = () => {
             rel="noopener noreferrer"
             className="mx-3"
           >
-            <ImageComponent src="../img/github.png" className="w-14 h-14" />
+            <ImageComponent src={github} className="w-14 h-14" />
           </a>
           <a
             href="https://www.linkedin.com/in/cecilia-mart%C3%ADnez-%E2%9A%9B%EF%B8%8F-%F0%9F%9A%80-7420a524a"
@@ -34,7 +39,7 @@ export const AboutBody = () => {
             rel="noopener noreferrer"
             className="mx-3"
           >
-            <ImageComponent src="../img/in.png" className="w-14 h-14" />
+            <ImageComponent src={linkedin} className="w-14 h-14" />
           </a>
         </div>
       </div>

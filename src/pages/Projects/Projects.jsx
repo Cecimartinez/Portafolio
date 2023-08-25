@@ -1,25 +1,31 @@
 import { useState, useEffect } from "react";
 import { gitHubRepos } from "../../api/api";
 import { Card } from "../../components/Card/Card";
+import calculator from "../../assets/img/calculator.png";
+import counter from "../../assets/img/counter.png";
+import macarons from "../../assets/img/macarons.png";
+import devport from "../../assets/img/aboutme-img.png";
+import juego from "../../assets/img/juego.png";
+import portafolio from "../../assets/img/portada-homo.png";
+import ncr from "../../assets/img/dolar.png";
+import weatherapp from "../../assets/img/raining.png";
 
 export const Projects = () => {
   const projectImages = {
-    "Calculadora": "img/calculator.png",
-    "Counter-App": "img/counter.png",
-    "Delicate-Macarons": "img/macarons.png",
-    "DevPort": "img/aboutme-img.png",
-    "juego-cuatro-en-linea": "img/juego.png",
-    "Portafolio": "img/portada-homo.png",
-    "TestChallengeDev_NCR": "img/dolar.png",
-    "Weather-app": "img/raining.png",
+    Calculadora: calculator,
+    "Counter-App": counter,
+    "Delicate-Macarons": macarons,
+    "DevPort": devport,
+    "juego-cuatro-en-linea": juego,
+    "Portafolio": portafolio,
+    "TestChallengeDev_NCR": ncr,
+    "Weather-app": weatherapp,
   };
-
 
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
-    const token = "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"
-
+    const token = process.env.REACT_APP_GITHUB_TOKEN;
     const fetchRepos = async () => {
       try {
         const data = await gitHubRepos(token);

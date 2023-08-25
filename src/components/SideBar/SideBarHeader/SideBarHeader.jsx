@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ImageComponent } from "../../ImageComponent/ImageComponent";
+import logo from "../../../assets/img/logo.png"
 
 export const SideBarHeader = ({ open, setOpen }) => {
   return (
@@ -8,7 +9,7 @@ export const SideBarHeader = ({ open, setOpen }) => {
         <div className="image flex items-center justify-center bg-white rounded-full m-2 ">
           <Link to="/*">
             <ImageComponent
-              src="../img/logo-bitmoji.png"
+              src={logo}
               alt="logo"
               className={`w-12 cursor-pointer ${
                 !open && "rotate-[360deg]  duration-500"

@@ -1,4 +1,5 @@
 import { Button, ImageComponent, Subtitle, Title } from "../../components";
+import home from "../../assets/img/home.png"
 
 export const Home = () => {
   const pdfUrl =
@@ -21,7 +22,7 @@ export const Home = () => {
 
           <div className="flex justify-center">
             <ImageComponent
-              src="../img/home.png"
+              src={home}
               alt="HomeImage"
               className="w-40 h-40 mx-auto md:mx-0 md:w-60 md:h-60"
             />

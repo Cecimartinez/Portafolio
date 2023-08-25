@@ -1,27 +1,39 @@
+import react from "../../assets/img/react.png"
+import js from "../../assets/img/js.png"
+import tailwind from "../../assets/img/tailwind.png"
+import html from "../../assets/img/html.png"
+import node from "../../assets/img/nodejs.png"
+import py from "../../assets/img/python.png"
+import sqlserver from "../../assets/img/sqlserver.png"
+import mongodb from "../../assets/img/mongodb.png"
+import mysql from "../../assets/img/mysql.png"
+
+
+
 export const Languages = () => {
   const skills = [
     {
       category: "Frontend",
       technologies: [
-        { name: "React", icon: "../img/react.png" },
-        { name: "js", icon: "../img/js.png" },
-        { name: "html", icon: "../img/html.png" },
-        { name: "tailwind", icon: "../img/tailwind.png" },
+        { name: "React", icon: react},
+        { name: "js", icon: js},
+        { name: "html", icon: html},
+        { name: "tailwind", icon: tailwind },
       ],
     },
     {
       category: "Backend",
       technologies: [
-        { name: "Node.js", icon: "../img/python.png" },
-        { name: "Python", icon: "../img/nodejs.png" },
+        { name: "Node.js", icon: node },
+        { name: "Python", icon: py},
       ],
     },
     {
       category: "Database",
       technologies: [
-        { name: "SqlServer", icon: "../img/sqlserver.png" },
-        { name: "Mysql", icon: "../img/mysql.png" },
-        { name: "MongoDB", icon: "../img/mongodb.png" },
+        { name: "SqlServer", icon: sqlserver },
+        { name: "Mysql", icon: mysql },
+        { name: "MongoDB", icon: mongodb },
 
       ],
     },

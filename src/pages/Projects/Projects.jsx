@@ -31,7 +31,7 @@ export const Projects = () => {
       try {
         const data = await gitHubRepos(token);
 
-        setRepos(data);
+        setRepos(data); 
       } catch (error) {
         console.error(error.message);
       }

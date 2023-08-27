@@ -1,12 +1,11 @@
 import { ListItem } from "../../ListItems/ListItem";
 
-export const SideBarMenu = ({ open, mode, handleChange }) => {
+export const SideBarMenu = ({ open}) => {
   return (
-    <div className="menu-bar my-5 py-6">
-      <ul className="menu  my-auto">
+    <div className="menu-bar "> 
+      <ul className="menu">
         <ListItem stateOpen={open} />
       </ul>
-
     </div>
   );
 };

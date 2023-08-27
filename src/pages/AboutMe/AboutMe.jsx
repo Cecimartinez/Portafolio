@@ -3,7 +3,7 @@ import { AboutBody } from "./components";
 
 export const AboutMe = () => {
   return (
-    <div className="mx-auto max-w-screen-lg px-3 py-5 flex flex-col justify-center items-center   overflow-y-auto">
+    <div className="mx-auto max-w-screen-lg px-3 py-2 flex flex-col justify-center items-center   overflow-y-auto">
       <Title
         className="text-xl font-bold text-center m-2 text-white"
         text="Hi there, I'm Cecilia Martinez 👋🏼"

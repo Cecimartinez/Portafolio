@@ -5,7 +5,7 @@ import logo from "@/assets/img/logo.png"
 export const SideBarHeader = ({ open, setOpen }) => {
   return (
     <header className="relative">
-      <div className="image-text my-2 flex items-center">
+      <div className="image-text flex items-center">
         <div className="image flex items-center justify-center bg-white rounded-full m-2 ">
           <Link to="/*">
             <ImageComponent

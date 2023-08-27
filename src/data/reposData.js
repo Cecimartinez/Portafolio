@@ -1,11 +1,11 @@
-import calculator from "../assets/img/calculator.png";
-import counter from "../assets/img/counter.png";
-import macarons from "../assets/img/macarons.png";
-import devport from "../assets/img/aboutme-img.png";
-import juego from "../assets/img/juego.png";
-import portafolio from "../assets/img/portada-homo.png";
-import ncr from "../assets/img/dolar.png";
-import weatherapp from "../assets/img/raining.png";
+import calculator from "@/assets/img/calculator.png";
+import counter from "@/assets/img/counter.png";
+import macarons from "@/assets/img/macarons.png";
+import devport from "@/assets/img/aboutme-img.png";
+import juego from "@/assets/img/juego.png";
+import portafolio from "@/assets/img/portada-homo.png";
+import ncr from "@/assets/img/dolar.png";
+import weatherapp from "@/assets/img/raining.png";
 
 export const reposData= [
   {

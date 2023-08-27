@@ -1,5 +1,5 @@
 import { Button, ImageComponent, Subtitle, Title } from "../../components";
-import home from "../../assets/img/home.png"
+import home from "@/assets/img/home.png"
 
 export const Home = () => {
   const pdfUrl =

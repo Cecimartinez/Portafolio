@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ImageComponent } from "../../ImageComponent/ImageComponent";
-import logo from "../../../assets/img/logo.png"
+import logo from "@/assets/img/logo.png"
 
 export const SideBarHeader = ({ open, setOpen }) => {
   return (

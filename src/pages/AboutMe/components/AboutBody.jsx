@@ -1,10 +1,8 @@
 import { ImageComponent } from "@/components";
 import { Paragrap } from "../../../components/Paragraph/Paragraph";
-import aboutme from "../../../assets/img/aboutme.png"
-import linkedin from "../../../assets/img/in.png"
-import github from "../../../assets/img/github.png"
-
-
+import aboutme from "../../../assets/img/aboutme.png";
+import linkedin from "../../../assets/img/in.png";
+import github from "../../../assets/img/github.png";
 
 export const AboutBody = () => {
   return (
